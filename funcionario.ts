@@ -1,5 +1,7 @@
-namespace Hospital{
-    export class Funcionario extends Medico{
+///<reference path="pessoa.ts" />
+
+namespace hospital{
+    export class Funcionario extends Pessoa{
         private _codFuncionario: number;
 
         public getcodFuncionario(){

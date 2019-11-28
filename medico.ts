@@ -1,15 +1,17 @@
-namespace Hospital{
+///<reference path="funcionario.ts" />
 
-    export class Medico extends Hospital{
+namespace hospital{
 
-        private _crm: string;
+    export class Medico extends Funcionario{
+
+        private _crm: number;
         private _especialidade: string;
 
         public getCrm(){
             return this._crm;
         }
 
-        public setCrm(crm:string){
+        public setCrm(crm:number){
             this._crm = crm;
         }
 

@@ -1,14 +1,16 @@
-namespace Hospital{
+///<reference path="funcionario.ts" />
 
-    export class Enfermeiro extends Hospital{
+namespace hospital{
 
-        private _coren: string;
+    export class Enfermeiro extends Funcionario{
+
+        private _coren: number;
 
         public getCoren(){
             return this._coren;
         }
 
-        public setCoren(coren:string){
+        public setCoren(coren:number){
             this._coren = coren;
         }
     }

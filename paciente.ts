@@ -1,6 +1,6 @@
 ///<reference path="pessoa.ts" />
 
-namespace Hospital {
+namespace hospital {
     export class Paciente extends Pessoa{
         private _codPaciente: number;
 
